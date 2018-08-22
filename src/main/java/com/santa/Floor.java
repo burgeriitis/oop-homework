@@ -7,11 +7,9 @@ class Floor {
 
     private final List<Flat> flats = new ArrayList<>();
     private final int floorNr;
-    private final int area;
 
-    public Floor(int floorNr, int area) {
+    public Floor(int floorNr) {
         this.floorNr = floorNr;
-        this.area = area;
     }
 
     public List<Flat> getFlats() {
@@ -24,10 +22,6 @@ class Floor {
 
     public int getFloorNr() {
         return floorNr;
-    }
-
-    public int getArea() {
-        return area;
     }
 
     @Override

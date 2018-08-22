@@ -2,19 +2,19 @@ package com.santa;
 
 public class BasicFlatInfo {
 
-    private final int roomCount;
-    private final int area;
+    private final RoomCount roomCount;
+    private final double area;
 
-    public BasicFlatInfo(int roomCount, int area) {
+    public BasicFlatInfo(RoomCount roomCount, double area) {
         this.roomCount = roomCount;
         this.area = area;
     }
 
-    public int getRoomCount() {
+    public RoomCount getRoomCount() {
         return roomCount;
     }
 
-    public int getArea() {
+    public double getArea() {
         return area;
     }
 }

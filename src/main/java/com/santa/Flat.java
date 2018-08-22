@@ -19,7 +19,7 @@ public class Flat {
         this.available = true;
     }
 
-    public BigDecimal price() {
+    public BigDecimal getPrice() {
         return pricePerSquareMeter.multiply(new BigDecimal(this.area), new MathContext(2));
     }
 

@@ -1,4 +1,4 @@
-package com.santa;
+package com.santa.components;
 
 public enum RoomCount {
     ONE(1),

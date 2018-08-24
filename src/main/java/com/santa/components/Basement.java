@@ -1,4 +1,4 @@
-package com.santa;
+package com.santa.components;
 
 public class Basement {
     private final double area;
@@ -9,5 +9,12 @@ public class Basement {
 
     public double getArea() {
         return area;
+    }
+
+    @Override
+    public String toString() {
+        return "Basement{" +
+                "area=" + area +
+                '}';
     }
 }

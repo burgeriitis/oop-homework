@@ -1,5 +1,7 @@
 package com.santa;
 
+import com.santa.components.RoomCount;
+
 public class BasicFlatInfo {
 
     private final RoomCount roomCount;
